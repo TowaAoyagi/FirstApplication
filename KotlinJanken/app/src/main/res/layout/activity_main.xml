@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/paa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/choki"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/paa" />
+
+    <ImageView
+        android:id="@+id/goo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/choki"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/goo" />
+
+    <ImageView
+        android:id="@+id/choki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/paa"
+        app:layout_constraintStart_toEndOf="@+id/goo"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/choki" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="CPU"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintTop_toBottomOf="@+id/cpu"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ImageView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/result"
+        app:srcCompat="@drawable/paa"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ImageView
+        android:id="@+id/cpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/goo"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Player"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/choki"
+        app:layout_constraintTop_toBottomOf="@+id/player"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="じゃんけん"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/player"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

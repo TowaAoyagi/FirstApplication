@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "991439675238",
+    "firebase_url": "https://everyday-haiku.firebaseio.com",
+    "project_id": "everyday-haiku",
+    "storage_bucket": "everyday-haiku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991439675238:android:70a88ed43cd433ec",
+        "android_client_info": {
+          "package_name": "com.kamiture.kamui.haikupost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991439675238-qutbftdgoof07ovalujsguvskp6haggk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5ObqS5M5Uy3KJKbJI-c7jMljOWIfZZnk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
